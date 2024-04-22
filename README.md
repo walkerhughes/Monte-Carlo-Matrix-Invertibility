@@ -19,16 +19,15 @@ $$det(A) \neq 0 \Rightarrow ad-bc\neq0 \Rightarrow ad \neq bc$$
 
 Turns out this is true of 6 possible matrices
 
-$$
-\begin{bmatrix}
+$$\begin{bmatrix}
 1 & 0\\
 0 & 1
-\end{bmatrix},
+\end{bmatrix}
 
 \begin{bmatrix}
 0 & 1\\
 1 & 0
-\end{bmatrix},
+\end{bmatrix}
 
 \begin{bmatrix}
 1 & 1\\
@@ -48,8 +47,7 @@ $$
 \begin{bmatrix}
 0 & 1\\
 1 & 1
-\end{bmatrix}
-$$ 
+\end{bmatrix}$$
 
 which implies that for $n=2$, there is a $\frac{6}{16}=37.5\%$ chance the matrix is invertible. For $n=3$ though, there are $2^9=512$ possible matrices, so Monte Carlo methods are helpful to study how the probability of invertability scales for higher dimension matrices.
 
