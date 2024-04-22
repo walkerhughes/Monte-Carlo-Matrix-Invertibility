@@ -29,4 +29,4 @@ Turns out this is true of 6 possible matrices, which implies that for $n=2$, the
 
 ## Results
 
-![Alt text](./output.png )
+![Alt text](./output.png)
