@@ -20,11 +20,13 @@ $$det(A) \neq 0 \Rightarrow ad-bc\neq0 \Rightarrow ad \neq bc$$
 
 Turns out this is true of 6 possible matrices, which implies that for $n=2$, there is a $\frac{6}{16}=37.5\%$ chance the matrix is invertible. For $n=3$ though, there are $2^9=512$ possible matrices, so Monte Carlo methods are helpful to study how the probability of invertability scales for higher dimension matrices.
 
-## Project Objectives
+## Objectives
 
 - **Simulation of Binary Matrices:** Generate matrices of increasing dimensions, each element being 0 or 1 with equal probability.
 - **Invertibility Check:** Determine if each generated matrix is invertible by checking if the determinant is non-zero.
 - **Statistical Analysis:** Analyze the probability of invertibility as a function of matrix dimension and visualize the results.
 - **Performance Optimization:** Implement parallel processing and garbage collection to speed up simulations and free up memory.
 
+## Results
 
+![Alt text](./output.png )
